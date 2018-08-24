@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17C88" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="AgeGroups" representedClassName="SwimClubAgeGroups" syncable="YES">
+        <attribute name="agegroupid" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="agegroupname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxage" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="minage" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Members" inverseName="agegroup" inverseEntity="Members" syncable="YES"/>
+    </entity>
+    <entity name="EventResults" representedClassName="SwimClubEventResults" syncable="YES">
+        <attribute name="diffseconds" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="eventid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="expectedseconds" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="memberid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="resultseconds" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Events" inverseName="eventResults" inverseEntity="Events" syncable="YES"/>
+        <relationship name="member" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Members" inverseName="eventresults" inverseEntity="Members" syncable="YES"/>
+        <fetchIndex name="memberid">
+            <fetchIndexElement property="memberid" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Events" representedClassName="SwimClubEvents" syncable="YES">
+        <attribute name="datachanged" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="distancemtrs" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="downloadeddate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="eventdate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="eventid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="eventname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isfinished" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uploadeddate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="webid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="eventResults" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="EventResults" inverseName="event" inverseEntity="EventResults" syncable="YES"/>
+    </entity>
+    <entity name="Groups" representedClassName="SwimClubGroups" syncable="YES">
+        <attribute name="endseconds" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="groupid" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="groupname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startseconds" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Members" inverseName="membergroup" inverseEntity="Members" syncable="YES"/>
+    </entity>
+    <entity name="Members" representedClassName="SwimClubMembers" syncable="YES">
+        <attribute name="age" optional="YES" transient="YES" attributeType="Integer 16" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="datachanged" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="dateofbirth" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="emailaddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="membername" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="onekseconds" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="selectedforevent" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="swimclubid" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="webid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="agegroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AgeGroups" inverseName="members" inverseEntity="AgeGroups" syncable="YES"/>
+        <relationship name="eventresults" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EventResults" inverseName="member" inverseEntity="EventResults" syncable="YES"/>
+        <relationship name="membergroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Groups" inverseName="members" inverseEntity="Groups" syncable="YES"/>
+    </entity>
+    <entity name="SysControl" representedClassName="SwimClubSysControl" syncable="YES">
+        <attribute name="runningeventid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="runningeventseconds" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="runningeventstopped" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AgeGroups" positionX="117" positionY="243" width="128" height="120"/>
+        <element name="EventResults" positionX="-36" positionY="99" width="128" height="150"/>
+        <element name="Events" positionX="117" positionY="198" width="128" height="210"/>
+        <element name="Groups" positionX="117" positionY="243" width="128" height="120"/>
+        <element name="Members" positionX="261" positionY="147" width="128" height="255"/>
+        <element name="SysControl" positionX="117" positionY="243" width="128" height="90"/>
+    </elements>
+</model>

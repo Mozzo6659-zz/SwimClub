@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F074F942002F893007CACCE /* SwimClubGroups+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F074F922002F893007CACCE /* SwimClubGroups+CoreDataClass.m */; };
+		6F074F952002F893007CACCE /* SwimClubGroups+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F074F932002F893007CACCE /* SwimClubGroups+CoreDataProperties.m */; };
+		6F0C8B101FFC3D9900243F84 /* SwimClubMembers+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C8B0E1FFC3D9900243F84 /* SwimClubMembers+CoreDataClass.m */; };
+		6F0C8B111FFC3D9900243F84 /* SwimClubMembers+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C8B0F1FFC3D9900243F84 /* SwimClubMembers+CoreDataProperties.m */; };
+		6F1659701FEB1CFF0086D34A /* OWSlogo1536x2008.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F16596F1FEB1CFF0086D34A /* OWSlogo1536x2008.png */; };
+		6F3FBD571FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3FBD551FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataClass.m */; };
+		6F3FBD581FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3FBD561FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataProperties.m */; };
+		6F4CEEF21FDF28720040251D /* timeFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4CEEF11FDF28720040251D /* timeFunctions.m */; };
+		6F4CEF1C1FDF88D80040251D /* resultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4CEF1B1FDF88D80040251D /* resultsViewController.m */; };
+		6F4CEF1E1FDF9B950040251D /* bronze7575.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4CEF1D1FDF9B940040251D /* bronze7575.png */; };
+		6F4CEF201FDF9BAC0040251D /* silver7575.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4CEF1F1FDF9BAC0040251D /* silver7575.png */; };
+		6F4CEF221FDF9BB80040251D /* gold7575.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4CEF211FDF9BB80040251D /* gold7575.png */; };
+		6F4CEF281FDFA7260040251D /* resultsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4CEF271FDFA7260040251D /* resultsCell.m */; };
+		6F67ED7F1FE4680A002F5CEB /* adjustEstimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F67ED7E1FE4680A002F5CEB /* adjustEstimateViewController.m */; };
+		6F8451B11FD3BDDE008742BD /* addMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8451B01FD3BDDE008742BD /* addMemberViewController.m */; };
+		6F8A87AD1FE647C4000BF3A5 /* webFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A87AC1FE647C4000BF3A5 /* webFunctions.m */; };
+		6F994EE41FD7B123003A62D9 /* tickbig7575.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F994EE31FD7B123003A62D9 /* tickbig7575.png */; };
+		6F9D22221FD106DF00AA912C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D22211FD106DF00AA912C /* AppDelegate.m */; };
+		6F9D22251FD106DF00AA912C /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D22241FD106DF00AA912C /* mainViewController.m */; };
+		6F9D22281FD106DF00AA912C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F9D22261FD106DF00AA912C /* Main.storyboard */; };
+		6F9D222B1FD106DF00AA912C /* SwimClub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D22291FD106DF00AA912C /* SwimClub.xcdatamodeld */; };
+		6F9D222D1FD106DF00AA912C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9D222C1FD106DF00AA912C /* Assets.xcassets */; };
+		6F9D22301FD106DF00AA912C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F9D222E1FD106DF00AA912C /* LaunchScreen.storyboard */; };
+		6F9D22331FD106DF00AA912C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D22321FD106DF00AA912C /* main.m */; };
+		6F9D223D1FD106DF00AA912C /* SwimClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D223C1FD106DF00AA912C /* SwimClubTests.m */; };
+		6F9D22481FD106DF00AA912C /* SwimClubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D22471FD106DF00AA912C /* SwimClubUITests.m */; };
+		6F9D64BC1FD4F14800B4CA0C /* CoreDataError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D64BB1FD4F14700B4CA0C /* CoreDataError.m */; };
+		6F9F938C1FD6555300D5DE15 /* membersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F938B1FD6555300D5DE15 /* membersViewController.m */; };
+		6FC4BB1D20FC0BA20050DAC5 /* photography_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC4BB1C20FC0BA20050DAC5 /* photography_camera.png */; };
+		6FC4BB2020FC1D100050DAC5 /* CommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4BB1F20FC1D100050DAC5 /* CommonFunctions.m */; };
+		6FE996691FFAE94A00998EE1 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE996681FFAE94A00998EE1 /* UserNotifications.framework */; };
+		6FE9966B1FFAE98800998EE1 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE9966A1FFAE98800998EE1 /* NotificationCenter.framework */; };
+		6FE9966D1FFAEBE100998EE1 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE9966C1FFAEBE100998EE1 /* UserNotificationsUI.framework */; };
+		6FE996721FFB166300998EE1 /* SwimClubSysControl+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE996701FFB166300998EE1 /* SwimClubSysControl+CoreDataClass.m */; };
+		6FE996731FFB166300998EE1 /* SwimClubSysControl+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE996711FFB166300998EE1 /* SwimClubSysControl+CoreDataProperties.m */; };
+		6FE996751FFB3CA400998EE1 /* ageglyphwithtext.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE996741FFB3CA400998EE1 /* ageglyphwithtext.png */; };
+		6FE996771FFB3CBB00998EE1 /* groupglyphwithtext.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE996761FFB3CBB00998EE1 /* groupglyphwithtext.png */; };
+		6FE996791FFB3CD500998EE1 /* timeglyphwithtext.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE996781FFB3CD500998EE1 /* timeglyphwithtext.png */; };
+		6FEF84521FF31D45004A50F2 /* SwimClubEventResults+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEF84401FF31D45004A50F2 /* SwimClubEventResults+CoreDataClass.m */; };
+		6FEF84531FF31D45004A50F2 /* SwimClubEventResults+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEF84411FF31D45004A50F2 /* SwimClubEventResults+CoreDataProperties.m */; };
+		6FEF84541FF31D45004A50F2 /* SwimClubEvents+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEF84441FF31D45004A50F2 /* SwimClubEvents+CoreDataClass.m */; };
+		6FEF84551FF31D45004A50F2 /* SwimClubEvents+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEF84451FF31D45004A50F2 /* SwimClubEvents+CoreDataProperties.m */; };
+		6FF235C71FD4B0D600BB771D /* openbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF235C61FD4B0D600BB771D /* openbox.png */; };
+		6FF235C91FD4B0E400BB771D /* tickbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF235C81FD4B0E400BB771D /* tickbox.png */; };
+		6FF5BA931FD6477200A843F5 /* eventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5BA921FD6477200A843F5 /* eventViewController.m */; };
+		6FF8EE2B1FE1D80600D65454 /* membersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8EE2A1FE1D80600D65454 /* membersListViewController.m */; };
+		6FF8EE2D1FE212D600D65454 /* rightarrow2-7575.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF8EE2C1FE212D600D65454 /* rightarrow2-7575.png */; };
+		6FF8EE301FE22B1500D65454 /* EventsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8EE2F1FE22B1500D65454 /* EventsListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F9D22391FD106DF00AA912C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F9D22151FD106DF00AA912C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F9D221C1FD106DF00AA912C;
+			remoteInfo = SwimClub;
+		};
+		6F9D22441FD106DF00AA912C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F9D22151FD106DF00AA912C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F9D221C1FD106DF00AA912C;
+			remoteInfo = SwimClub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F074F902002F893007CACCE /* SwimClubGroups+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimClubGroups+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6F074F912002F893007CACCE /* SwimClubGroups+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimClubGroups+CoreDataClass.h"; sourceTree = "<group>"; };
+		6F074F922002F893007CACCE /* SwimClubGroups+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwimClubGroups+CoreDataClass.m"; sourceTree = "<group>"; };
+		6F074F932002F893007CACCE /* SwimClubGroups+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwimClubGroups+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6F0C8B0C1FFC3D9900243F84 /* SwimClubMembers+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimClubMembers+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6F0C8B0D1FFC3D9900243F84 /* SwimClubMembers+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimClubMembers+CoreDataClass.h"; sourceTree = "<group>"; };
+		6F0C8B0E1FFC3D9900243F84 /* SwimClubMembers+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwimClubMembers+CoreDataClass.m"; sourceTree = "<group>"; };
+		6F0C8B0F1FFC3D9900243F84 /* SwimClubMembers+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwimClubMembers+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6F16596F1FEB1CFF0086D34A /* OWSlogo1536x2008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OWSlogo1536x2008.png; sourceTree = "<group>"; };
+		6F3FBD531FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimClubAgeGroups+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6F3FBD541FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimClubAgeGroups+CoreDataClass.h"; sourceTree = "<group>"; };
+		6F3FBD551FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwimClubAgeGroups+CoreDataClass.m"; sourceTree = "<group>"; };
+		6F3FBD561FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwimClubAgeGroups+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6F4CEEF01FDF284E0040251D /* timeFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timeFunctions.h; sourceTree = "<group>"; };
+		6F4CEEF11FDF28720040251D /* timeFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timeFunctions.m; sourceTree = "<group>"; };
+		6F4CEF1A1FDF88D80040251D /* resultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resultsViewController.h; sourceTree = "<group>"; };
+		6F4CEF1B1FDF88D80040251D /* resultsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = resultsViewController.m; sourceTree = "<group>"; };
+		6F4CEF1D1FDF9B940040251D /* bronze7575.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bronze7575.png; sourceTree = "<group>"; };
+		6F4CEF1F1FDF9BAC0040251D /* silver7575.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silver7575.png; sourceTree = "<group>"; };
+		6F4CEF211FDF9BB80040251D /* gold7575.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold7575.png; sourceTree = "<group>"; };
+		6F4CEF261FDFA7260040251D /* resultsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resultsCell.h; sourceTree = "<group>"; };
+		6F4CEF271FDFA7260040251D /* resultsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = resultsCell.m; sourceTree = "<group>"; };
+		6F67ED7D1FE4680A002F5CEB /* adjustEstimateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adjustEstimateViewController.h; sourceTree = "<group>"; };
+		6F67ED7E1FE4680A002F5CEB /* adjustEstimateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adjustEstimateViewController.m; sourceTree = "<group>"; };
+		6F8451AF1FD3BDDE008742BD /* addMemberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addMemberViewController.h; sourceTree = "<group>"; };
+		6F8451B01FD3BDDE008742BD /* addMemberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addMemberViewController.m; sourceTree = "<group>"; };
+		6F85243F1FE9BCA300382F98 /* SwimClubv1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwimClubv1.xcdatamodel; sourceTree = "<group>"; };
+		6F8A87AB1FE647C4000BF3A5 /* webFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webFunctions.h; sourceTree = "<group>"; };
+		6F8A87AC1FE647C4000BF3A5 /* webFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webFunctions.m; sourceTree = "<group>"; };
+		6F994EE31FD7B123003A62D9 /* tickbig7575.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tickbig7575.png; sourceTree = "<group>"; };
+		6F9D221D1FD106DF00AA912C /* SwimClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9D22201FD106DF00AA912C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F9D22211FD106DF00AA912C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F9D22231FD106DF00AA912C /* mainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		6F9D22241FD106DF00AA912C /* mainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		6F9D22271FD106DF00AA912C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F9D222A1FD106DF00AA912C /* SwimClub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwimClub.xcdatamodel; sourceTree = "<group>"; };
+		6F9D222C1FD106DF00AA912C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F9D222F1FD106DF00AA912C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F9D22311FD106DF00AA912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9D22321FD106DF00AA912C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F9D22381FD106DF00AA912C /* SwimClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9D223C1FD106DF00AA912C /* SwimClubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwimClubTests.m; sourceTree = "<group>"; };
+		6F9D223E1FD106DF00AA912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9D22431FD106DF00AA912C /* SwimClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9D22471FD106DF00AA912C /* SwimClubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwimClubUITests.m; sourceTree = "<group>"; };
+		6F9D22491FD106DF00AA912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9D64BA1FD4F13300B4CA0C /* CoreDataError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataError.h; sourceTree = "<group>"; };
+		6F9D64BB1FD4F14700B4CA0C /* CoreDataError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataError.m; sourceTree = "<group>"; };
+		6F9F938A1FD6555300D5DE15 /* membersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = membersViewController.h; sourceTree = "<group>"; };
+		6F9F938B1FD6555300D5DE15 /* membersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = membersViewController.m; sourceTree = "<group>"; };
+		6FC4BB1C20FC0BA20050DAC5 /* photography_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photography_camera.png; sourceTree = "<group>"; };
+		6FC4BB1E20FC1D100050DAC5 /* CommonFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonFunctions.h; sourceTree = "<group>"; };
+		6FC4BB1F20FC1D100050DAC5 /* CommonFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonFunctions.m; sourceTree = "<group>"; };
+		6FCA08511FD37168005808BA /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6FE996661FFAE90700998EE1 /* SwimClub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwimClub.entitlements; sourceTree = "<group>"; };
+		6FE996681FFAE94A00998EE1 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		6FE9966A1FFAE98800998EE1 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		6FE9966C1FFAEBE100998EE1 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		6FE9966E1FFB166300998EE1 /* SwimClubSysControl+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimClubSysControl+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6FE9966F1FFB166300998EE1 /* SwimClubSysControl+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimClubSysControl+CoreDataClass.h"; sourceTree = "<group>"; };
+		6FE996701FFB166300998EE1 /* SwimClubSysControl+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwimClubSysControl+CoreDataClass.m"; sourceTree = "<group>"; };
+		6FE996711FFB166300998EE1 /* SwimClubSysControl+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwimClubSysControl+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6FE996741FFB3CA400998EE1 /* ageglyphwithtext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ageglyphwithtext.png; path = "../../../../../Users/mossmanm/Library/Mobile Documents/com~apple~CloudDocs/SwimClubImages/ageglyphwithtext.png"; sourceTree = "<group>"; };
+		6FE996761FFB3CBB00998EE1 /* groupglyphwithtext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = groupglyphwithtext.png; path = "../../../../../Users/mossmanm/Library/Mobile Documents/com~apple~CloudDocs/SwimClubImages/groupglyphwithtext.png"; sourceTree = "<group>"; };
+		6FE996781FFB3CD500998EE1 /* timeglyphwithtext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = timeglyphwithtext.png; path = "../../../../../Users/mossmanm/Library/Mobile Documents/com~apple~CloudDocs/SwimClubImages/timeglyphwithtext.png"; sourceTree = "<group>"; };
+		6FEF843E1FF31D45004A50F2 /* SwimClubEventResults+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimClubEventResults+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6FEF843F1FF31D45004A50F2 /* SwimClubEventResults+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimClubEventResults+CoreDataClass.h"; sourceTree = "<group>"; };
+		6FEF84401FF31D45004A50F2 /* SwimClubEventResults+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwimClubEventResults+CoreDataClass.m"; sourceTree = "<group>"; };
+		6FEF84411FF31D45004A50F2 /* SwimClubEventResults+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwimClubEventResults+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6FEF84421FF31D45004A50F2 /* SwimClubEvents+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimClubEvents+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6FEF84431FF31D45004A50F2 /* SwimClubEvents+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwimClubEvents+CoreDataClass.h"; sourceTree = "<group>"; };
+		6FEF84441FF31D45004A50F2 /* SwimClubEvents+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwimClubEvents+CoreDataClass.m"; sourceTree = "<group>"; };
+		6FEF84451FF31D45004A50F2 /* SwimClubEvents+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwimClubEvents+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6FF235C61FD4B0D600BB771D /* openbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openbox.png; sourceTree = "<group>"; };
+		6FF235C81FD4B0E400BB771D /* tickbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tickbox.png; sourceTree = "<group>"; };
+		6FF5BA911FD6477200A843F5 /* eventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eventViewController.h; sourceTree = "<group>"; };
+		6FF5BA921FD6477200A843F5 /* eventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eventViewController.m; sourceTree = "<group>"; };
+		6FF8EE291FE1D80600D65454 /* membersListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = membersListViewController.h; sourceTree = "<group>"; };
+		6FF8EE2A1FE1D80600D65454 /* membersListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = membersListViewController.m; sourceTree = "<group>"; };
+		6FF8EE2C1FE212D600D65454 /* rightarrow2-7575.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightarrow2-7575.png"; sourceTree = "<group>"; };
+		6FF8EE2E1FE22B1500D65454 /* EventsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventsListViewController.h; sourceTree = "<group>"; };
+		6FF8EE2F1FE22B1500D65454 /* EventsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventsListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F9D221A1FD106DF00AA912C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE9966D1FFAEBE100998EE1 /* UserNotificationsUI.framework in Frameworks */,
+				6FE9966B1FFAE98800998EE1 /* NotificationCenter.framework in Frameworks */,
+				6FE996691FFAE94A00998EE1 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9D22351FD106DF00AA912C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9D22401FD106DF00AA912C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F9D22141FD106DF00AA912C = {
+			isa = PBXGroup;
+			children = (
+				6F9D221F1FD106DF00AA912C /* SwimClub */,
+				6F9D223B1FD106DF00AA912C /* SwimClubTests */,
+				6F9D22461FD106DF00AA912C /* SwimClubUITests */,
+				6F9D221E1FD106DF00AA912C /* Products */,
+				6FE996671FFAE94A00998EE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F9D221E1FD106DF00AA912C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F9D221D1FD106DF00AA912C /* SwimClub.app */,
+				6F9D22381FD106DF00AA912C /* SwimClubTests.xctest */,
+				6F9D22431FD106DF00AA912C /* SwimClubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F9D221F1FD106DF00AA912C /* SwimClub */ = {
+			isa = PBXGroup;
+			children = (
+				6FE996661FFAE90700998EE1 /* SwimClub.entitlements */,
+				6FF235BF1FD4AA7400BB771D /* Images */,
+				6FDBA5E31FD2817000539175 /* CoreData */,
+				6F9D22201FD106DF00AA912C /* AppDelegate.h */,
+				6F9D22211FD106DF00AA912C /* AppDelegate.m */,
+				6F9D22231FD106DF00AA912C /* mainViewController.h */,
+				6F9D22241FD106DF00AA912C /* mainViewController.m */,
+				6F9D22261FD106DF00AA912C /* Main.storyboard */,
+				6F9D222C1FD106DF00AA912C /* Assets.xcassets */,
+				6F9D222E1FD106DF00AA912C /* LaunchScreen.storyboard */,
+				6F9D22311FD106DF00AA912C /* Info.plist */,
+				6F9D22321FD106DF00AA912C /* main.m */,
+				6F9D22291FD106DF00AA912C /* SwimClub.xcdatamodeld */,
+				6FCA08511FD37168005808BA /* Constants.h */,
+				6F8451AF1FD3BDDE008742BD /* addMemberViewController.h */,
+				6F8451B01FD3BDDE008742BD /* addMemberViewController.m */,
+				6F9D64BB1FD4F14700B4CA0C /* CoreDataError.m */,
+				6F9D64BA1FD4F13300B4CA0C /* CoreDataError.h */,
+				6FF5BA911FD6477200A843F5 /* eventViewController.h */,
+				6FF5BA921FD6477200A843F5 /* eventViewController.m */,
+				6F9F938A1FD6555300D5DE15 /* membersViewController.h */,
+				6F9F938B1FD6555300D5DE15 /* membersViewController.m */,
+				6F4CEEF01FDF284E0040251D /* timeFunctions.h */,
+				6F4CEEF11FDF28720040251D /* timeFunctions.m */,
+				6F4CEF1A1FDF88D80040251D /* resultsViewController.h */,
+				6F4CEF1B1FDF88D80040251D /* resultsViewController.m */,
+				6F4CEF261FDFA7260040251D /* resultsCell.h */,
+				6F4CEF271FDFA7260040251D /* resultsCell.m */,
+				6FF8EE291FE1D80600D65454 /* membersListViewController.h */,
+				6FF8EE2A1FE1D80600D65454 /* membersListViewController.m */,
+				6FF8EE2E1FE22B1500D65454 /* EventsListViewController.h */,
+				6FF8EE2F1FE22B1500D65454 /* EventsListViewController.m */,
+				6F67ED7D1FE4680A002F5CEB /* adjustEstimateViewController.h */,
+				6F67ED7E1FE4680A002F5CEB /* adjustEstimateViewController.m */,
+				6F8A87AB1FE647C4000BF3A5 /* webFunctions.h */,
+				6F8A87AC1FE647C4000BF3A5 /* webFunctions.m */,
+				6FC4BB1E20FC1D100050DAC5 /* CommonFunctions.h */,
+				6FC4BB1F20FC1D100050DAC5 /* CommonFunctions.m */,
+			);
+			path = SwimClub;
+			sourceTree = "<group>";
+		};
+		6F9D223B1FD106DF00AA912C /* SwimClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F9D223C1FD106DF00AA912C /* SwimClubTests.m */,
+				6F9D223E1FD106DF00AA912C /* Info.plist */,
+			);
+			path = SwimClubTests;
+			sourceTree = "<group>";
+		};
+		6F9D22461FD106DF00AA912C /* SwimClubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F9D22471FD106DF00AA912C /* SwimClubUITests.m */,
+				6F9D22491FD106DF00AA912C /* Info.plist */,
+			);
+			path = SwimClubUITests;
+			sourceTree = "<group>";
+		};
+		6FDBA5E31FD2817000539175 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6F074F902002F893007CACCE /* SwimClubGroups+CoreDataProperties.h */,
+				6F074F912002F893007CACCE /* SwimClubGroups+CoreDataClass.h */,
+				6F074F922002F893007CACCE /* SwimClubGroups+CoreDataClass.m */,
+				6F074F932002F893007CACCE /* SwimClubGroups+CoreDataProperties.m */,
+				6F0C8B0C1FFC3D9900243F84 /* SwimClubMembers+CoreDataProperties.h */,
+				6F0C8B0D1FFC3D9900243F84 /* SwimClubMembers+CoreDataClass.h */,
+				6F0C8B0E1FFC3D9900243F84 /* SwimClubMembers+CoreDataClass.m */,
+				6F0C8B0F1FFC3D9900243F84 /* SwimClubMembers+CoreDataProperties.m */,
+				6FE9966E1FFB166300998EE1 /* SwimClubSysControl+CoreDataProperties.h */,
+				6FE9966F1FFB166300998EE1 /* SwimClubSysControl+CoreDataClass.h */,
+				6FE996701FFB166300998EE1 /* SwimClubSysControl+CoreDataClass.m */,
+				6FE996711FFB166300998EE1 /* SwimClubSysControl+CoreDataProperties.m */,
+				6F3FBD531FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataProperties.h */,
+				6F3FBD541FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataClass.h */,
+				6F3FBD551FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataClass.m */,
+				6F3FBD561FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataProperties.m */,
+				6FEF843E1FF31D45004A50F2 /* SwimClubEventResults+CoreDataProperties.h */,
+				6FEF843F1FF31D45004A50F2 /* SwimClubEventResults+CoreDataClass.h */,
+				6FEF84401FF31D45004A50F2 /* SwimClubEventResults+CoreDataClass.m */,
+				6FEF84411FF31D45004A50F2 /* SwimClubEventResults+CoreDataProperties.m */,
+				6FEF84421FF31D45004A50F2 /* SwimClubEvents+CoreDataProperties.h */,
+				6FEF84431FF31D45004A50F2 /* SwimClubEvents+CoreDataClass.h */,
+				6FEF84441FF31D45004A50F2 /* SwimClubEvents+CoreDataClass.m */,
+				6FEF84451FF31D45004A50F2 /* SwimClubEvents+CoreDataProperties.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6FE996671FFAE94A00998EE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9966C1FFAEBE100998EE1 /* UserNotificationsUI.framework */,
+				6FE9966A1FFAE98800998EE1 /* NotificationCenter.framework */,
+				6FE996681FFAE94A00998EE1 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FF235BF1FD4AA7400BB771D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6FC4BB1C20FC0BA20050DAC5 /* photography_camera.png */,
+				6FE996781FFB3CD500998EE1 /* timeglyphwithtext.png */,
+				6FE996761FFB3CBB00998EE1 /* groupglyphwithtext.png */,
+				6FE996741FFB3CA400998EE1 /* ageglyphwithtext.png */,
+				6F16596F1FEB1CFF0086D34A /* OWSlogo1536x2008.png */,
+				6FF8EE2C1FE212D600D65454 /* rightarrow2-7575.png */,
+				6F4CEF211FDF9BB80040251D /* gold7575.png */,
+				6F4CEF1F1FDF9BAC0040251D /* silver7575.png */,
+				6F4CEF1D1FDF9B940040251D /* bronze7575.png */,
+				6F994EE31FD7B123003A62D9 /* tickbig7575.png */,
+				6FF235C81FD4B0E400BB771D /* tickbox.png */,
+				6FF235C61FD4B0D600BB771D /* openbox.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F9D221C1FD106DF00AA912C /* SwimClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9D224C1FD106DF00AA912C /* Build configuration list for PBXNativeTarget "SwimClub" */;
+			buildPhases = (
+				6F9D22191FD106DF00AA912C /* Sources */,
+				6F9D221A1FD106DF00AA912C /* Frameworks */,
+				6F9D221B1FD106DF00AA912C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwimClub;
+			productName = SwimClub;
+			productReference = 6F9D221D1FD106DF00AA912C /* SwimClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F9D22371FD106DF00AA912C /* SwimClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9D224F1FD106DF00AA912C /* Build configuration list for PBXNativeTarget "SwimClubTests" */;
+			buildPhases = (
+				6F9D22341FD106DF00AA912C /* Sources */,
+				6F9D22351FD106DF00AA912C /* Frameworks */,
+				6F9D22361FD106DF00AA912C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F9D223A1FD106DF00AA912C /* PBXTargetDependency */,
+			);
+			name = SwimClubTests;
+			productName = SwimClubTests;
+			productReference = 6F9D22381FD106DF00AA912C /* SwimClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F9D22421FD106DF00AA912C /* SwimClubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9D22521FD106DF00AA912C /* Build configuration list for PBXNativeTarget "SwimClubUITests" */;
+			buildPhases = (
+				6F9D223F1FD106DF00AA912C /* Sources */,
+				6F9D22401FD106DF00AA912C /* Frameworks */,
+				6F9D22411FD106DF00AA912C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F9D22451FD106DF00AA912C /* PBXTargetDependency */,
+			);
+			name = SwimClubUITests;
+			productName = SwimClubUITests;
+			productReference = 6F9D22431FD106DF00AA912C /* SwimClubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F9D22151FD106DF00AA912C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Hammerhead Software";
+				TargetAttributes = {
+					6F9D221C1FD106DF00AA912C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					6F9D22371FD106DF00AA912C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F9D221C1FD106DF00AA912C;
+					};
+					6F9D22421FD106DF00AA912C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F9D221C1FD106DF00AA912C;
+					};
+				};
+			};
+			buildConfigurationList = 6F9D22181FD106DF00AA912C /* Build configuration list for PBXProject "SwimClub" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F9D22141FD106DF00AA912C;
+			productRefGroup = 6F9D221E1FD106DF00AA912C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F9D221C1FD106DF00AA912C /* SwimClub */,
+				6F9D22371FD106DF00AA912C /* SwimClubTests */,
+				6F9D22421FD106DF00AA912C /* SwimClubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F9D221B1FD106DF00AA912C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9D22301FD106DF00AA912C /* LaunchScreen.storyboard in Resources */,
+				6F4CEF221FDF9BB80040251D /* gold7575.png in Resources */,
+				6F4CEF1E1FDF9B950040251D /* bronze7575.png in Resources */,
+				6FF235C91FD4B0E400BB771D /* tickbox.png in Resources */,
+				6FF235C71FD4B0D600BB771D /* openbox.png in Resources */,
+				6F994EE41FD7B123003A62D9 /* tickbig7575.png in Resources */,
+				6FF8EE2D1FE212D600D65454 /* rightarrow2-7575.png in Resources */,
+				6FE996751FFB3CA400998EE1 /* ageglyphwithtext.png in Resources */,
+				6FC4BB1D20FC0BA20050DAC5 /* photography_camera.png in Resources */,
+				6FE996771FFB3CBB00998EE1 /* groupglyphwithtext.png in Resources */,
+				6FE996791FFB3CD500998EE1 /* timeglyphwithtext.png in Resources */,
+				6F9D222D1FD106DF00AA912C /* Assets.xcassets in Resources */,
+				6F9D22281FD106DF00AA912C /* Main.storyboard in Resources */,
+				6F1659701FEB1CFF0086D34A /* OWSlogo1536x2008.png in Resources */,
+				6F4CEF201FDF9BAC0040251D /* silver7575.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9D22361FD106DF00AA912C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9D22411FD106DF00AA912C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F9D22191FD106DF00AA912C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9D222B1FD106DF00AA912C /* SwimClub.xcdatamodeld in Sources */,
+				6F4CEF1C1FDF88D80040251D /* resultsViewController.m in Sources */,
+				6F9D22251FD106DF00AA912C /* mainViewController.m in Sources */,
+				6FEF84531FF31D45004A50F2 /* SwimClubEventResults+CoreDataProperties.m in Sources */,
+				6FEF84551FF31D45004A50F2 /* SwimClubEvents+CoreDataProperties.m in Sources */,
+				6FE996731FFB166300998EE1 /* SwimClubSysControl+CoreDataProperties.m in Sources */,
+				6FC4BB2020FC1D100050DAC5 /* CommonFunctions.m in Sources */,
+				6F4CEEF21FDF28720040251D /* timeFunctions.m in Sources */,
+				6F074F952002F893007CACCE /* SwimClubGroups+CoreDataProperties.m in Sources */,
+				6FF5BA931FD6477200A843F5 /* eventViewController.m in Sources */,
+				6F0C8B101FFC3D9900243F84 /* SwimClubMembers+CoreDataClass.m in Sources */,
+				6F3FBD581FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataProperties.m in Sources */,
+				6FE996721FFB166300998EE1 /* SwimClubSysControl+CoreDataClass.m in Sources */,
+				6F4CEF281FDFA7260040251D /* resultsCell.m in Sources */,
+				6F8A87AD1FE647C4000BF3A5 /* webFunctions.m in Sources */,
+				6F0C8B111FFC3D9900243F84 /* SwimClubMembers+CoreDataProperties.m in Sources */,
+				6F8451B11FD3BDDE008742BD /* addMemberViewController.m in Sources */,
+				6F9F938C1FD6555300D5DE15 /* membersViewController.m in Sources */,
+				6F9D22331FD106DF00AA912C /* main.m in Sources */,
+				6FF8EE2B1FE1D80600D65454 /* membersListViewController.m in Sources */,
+				6F9D22221FD106DF00AA912C /* AppDelegate.m in Sources */,
+				6F3FBD571FF5D7CB0096FD8D /* SwimClubAgeGroups+CoreDataClass.m in Sources */,
+				6F67ED7F1FE4680A002F5CEB /* adjustEstimateViewController.m in Sources */,
+				6FEF84541FF31D45004A50F2 /* SwimClubEvents+CoreDataClass.m in Sources */,
+				6FEF84521FF31D45004A50F2 /* SwimClubEventResults+CoreDataClass.m in Sources */,
+				6F074F942002F893007CACCE /* SwimClubGroups+CoreDataClass.m in Sources */,
+				6F9D64BC1FD4F14800B4CA0C /* CoreDataError.m in Sources */,
+				6FF8EE301FE22B1500D65454 /* EventsListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9D22341FD106DF00AA912C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9D223D1FD106DF00AA912C /* SwimClubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9D223F1FD106DF00AA912C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9D22481FD106DF00AA912C /* SwimClubUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F9D223A1FD106DF00AA912C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F9D221C1FD106DF00AA912C /* SwimClub */;
+			targetProxy = 6F9D22391FD106DF00AA912C /* PBXContainerItemProxy */;
+		};
+		6F9D22451FD106DF00AA912C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F9D221C1FD106DF00AA912C /* SwimClub */;
+			targetProxy = 6F9D22441FD106DF00AA912C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F9D22261FD106DF00AA912C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9D22271FD106DF00AA912C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F9D222E1FD106DF00AA912C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9D222F1FD106DF00AA912C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F9D224A1FD106DF00AA912C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F9D224B1FD106DF00AA912C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F9D224D1FD106DF00AA912C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2433GA3KU;
+				INFOPLIST_FILE = SwimClub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HammerheadSoftware.SwimClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6F9D224E1FD106DF00AA912C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2433GA3KU;
+				INFOPLIST_FILE = SwimClub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HammerheadSoftware.SwimClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		6F9D22501FD106DF00AA912C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2433GA3KU;
+				INFOPLIST_FILE = SwimClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HammerheadSoftware.SwimClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimClub.app/SwimClub";
+			};
+			name = Debug;
+		};
+		6F9D22511FD106DF00AA912C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2433GA3KU;
+				INFOPLIST_FILE = SwimClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HammerheadSoftware.SwimClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimClub.app/SwimClub";
+			};
+			name = Release;
+		};
+		6F9D22531FD106DF00AA912C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2433GA3KU;
+				INFOPLIST_FILE = SwimClubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HammerheadSoftware.SwimClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwimClub;
+			};
+			name = Debug;
+		};
+		6F9D22541FD106DF00AA912C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2433GA3KU;
+				INFOPLIST_FILE = SwimClubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HammerheadSoftware.SwimClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwimClub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F9D22181FD106DF00AA912C /* Build configuration list for PBXProject "SwimClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9D224A1FD106DF00AA912C /* Debug */,
+				6F9D224B1FD106DF00AA912C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9D224C1FD106DF00AA912C /* Build configuration list for PBXNativeTarget "SwimClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9D224D1FD106DF00AA912C /* Debug */,
+				6F9D224E1FD106DF00AA912C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9D224F1FD106DF00AA912C /* Build configuration list for PBXNativeTarget "SwimClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9D22501FD106DF00AA912C /* Debug */,
+				6F9D22511FD106DF00AA912C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9D22521FD106DF00AA912C /* Build configuration list for PBXNativeTarget "SwimClubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9D22531FD106DF00AA912C /* Debug */,
+				6F9D22541FD106DF00AA912C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F9D22291FD106DF00AA912C /* SwimClub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F85243F1FE9BCA300382F98 /* SwimClubv1.xcdatamodel */,
+				6F9D222A1FD106DF00AA912C /* SwimClub.xcdatamodel */,
+			);
+			currentVersion = 6F85243F1FE9BCA300382F98 /* SwimClubv1.xcdatamodel */;
+			path = SwimClub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F9D22151FD106DF00AA912C /* Project object */;
+}
