@@ -63,12 +63,7 @@ UITextField *txtcurrent;
     // Do any additional setup after loading the view.
 }
 -(void)configureView {
-    /*not using this frame shit. there us a dismiss keyborad button*/
-    /*
-    origframe = self.view.frame;
     
-    newframe = CGRectMake(origframe.origin.x, origframe.origin.y-100, origframe.size.width, origframe.size.height);
-    */
     [txtName becomeFirstResponder];
     [self.navigationController setNavigationBarHidden:false];
     

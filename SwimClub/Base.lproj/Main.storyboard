@@ -35,12 +35,12 @@
                 <viewController id="BYZ-38-t0r" customClass="mainViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0S1-V6-dYd">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="908"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXU-Rx-xII">
                                 <rect key="frame" x="24" y="143" width="728" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.43984822340000002" green="1" blue="0.96982401370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.4392156862745098" green="1" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="50"/>
                                 <state key="normal" title="Members">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -99,7 +99,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.056638753480481308" green="0.22322091362908514" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.054901960784313725" green="0.22352941176470587" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6E0-jp-phK"/>
                     </view>
                     <navigationItem key="navigationItem" id="hHn-0z-d6g"/>
@@ -123,7 +123,7 @@
         <scene sceneID="AGG-Fs-VVH">
             <objects>
                 <tableViewController id="pQI-YV-ETs" customClass="membersListViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="Jdk-2f-yHj">
+                    <tableView key="view" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="Jdk-2f-yHj">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="908"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.056638753479999998" green="0.22322091359999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -931,7 +931,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="8wg-vK-sMS"/>
         <segue reference="6GC-ik-XrV"/>
-        <segue reference="KfT-HQ-fVi"/>
+        <segue reference="pn4-A4-e45"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.056638753479999998" green="0.22322091359999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
